@@ -91,7 +91,6 @@ export default function LoginForm({ callbackUrl, error: urlError }: LoginFormPro
           <Input
             id="email"
             type="email"
-            placeholder="you@company.com"
             autoComplete="email"
             disabled={isPending}
             {...register("email")}
@@ -108,7 +107,6 @@ export default function LoginForm({ callbackUrl, error: urlError }: LoginFormPro
           <Input
             id="password"
             type="password"
-            placeholder="••••••••"
             autoComplete="current-password"
             disabled={isPending}
             {...register("password")}

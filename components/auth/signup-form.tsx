@@ -84,7 +84,6 @@ export default function SignupForm() {
           <Input
             id="name"
             type="text"
-            placeholder="Alex Johnson"
             autoComplete="name"
             disabled={isPending}
             {...register("name")}
@@ -97,7 +96,6 @@ export default function SignupForm() {
           <Input
             id="email"
             type="email"
-            placeholder="you@company.com"
             autoComplete="email"
             disabled={isPending}
             {...register("email")}
@@ -110,7 +108,6 @@ export default function SignupForm() {
           <Input
             id="password"
             type="password"
-            placeholder="••••••••"
             autoComplete="new-password"
             disabled={isPending}
             {...register("password", {
@@ -148,7 +145,6 @@ export default function SignupForm() {
           <Input
             id="confirmPassword"
             type="password"
-            placeholder="••••••••"
             autoComplete="new-password"
             disabled={isPending}
             {...register("confirmPassword")}
