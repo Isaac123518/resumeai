@@ -19,12 +19,12 @@ Job seekers have no fast way to see how well their resume actually matches a spe
 
 ## Tech Stack
 
-**Frontend:** Next.js 16, TypeScript, Tailwind CSS v4, shadcn/ui
-**Backend:** Next.js Server Actions
-**Database:** PostgreSQL (Neon), Prisma
-**Auth:** NextAuth v5 — email/password credentials and Google OAuth
-**AI:** Groq, running Llama 3.3 70B
-**File processing:** PDF upload, server-side text extraction via `unpdf`
+- **Frontend:** Next.js 16, TypeScript, Tailwind CSS v4, shadcn/ui
+- **Backend:** Next.js Server Actions
+- **Database:** PostgreSQL (Neon), Prisma
+- **Auth:** NextAuth v5 — email/password credentials and Google OAuth
+- **AI:** Groq, running `openai/gpt-oss-120b`
+- **File processing:** PDF upload, server-side text extraction via `unpdf`
 
 ## Architecture Notes
 
